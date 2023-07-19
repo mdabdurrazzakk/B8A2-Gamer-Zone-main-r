@@ -23,9 +23,7 @@
 font-size: 50%;
    }
    .pley-ground{
-    flex-direction: column;
+    grid-template-columns: repeat(1fr);
    }
-   .footermain{
-    flex-direction: column;
-   }
+   
 }
