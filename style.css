@@ -1,0 +1,260 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+
+
+
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Inter', sans-serif;
+}
+
+
+.nav-container{
+    display: flex;
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+    padding: 15px;
+    justify-content: space-around;
+    margin: 18px 180px;
+    align-items: center;
+}
+
+.logo {
+
+    display: flex;
+
+}
+
+.logo h2 {
+   font-size: 37px;
+   padding-left: 2.5rem;
+
+}
+
+.nav-button{
+    padding: 5px 10px;
+    background-color: antiquewhite;
+    border-radius: 6px;
+    border: 0px;
+    cursor: pointer;
+}
+
+.menu ul  {
+    display: flex;
+    gap: 30px;
+    list-style-type: none;
+    text-decoration: none;
+    
+}
+
+/* banner section start */
+.banner-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+/* .banner-text{
+    width: 801px;
+    height: 690px;
+   
+} */
+
+.head-title{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 100px;
+
+font-weight: 700;
+
+
+}
+.head-title2{
+    font-size: 48px;
+}
+.banner-ds{
+    color: #534C64;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 30px;
+}
+.btn1{
+    padding: 21px 40px;
+    border-radius: 30px;
+    align-items: flex-start;
+    color: white;
+    background-color: #FF42A5;
+    border: 0px;
+    margin-right: 15px;
+   
+}
+.btn2{
+    padding: 21px 40px;
+    border-radius: 30px;
+    align-items: flex-start;
+    color: white;
+    background-color: #4EC5F7;
+    
+    border: 0px;
+}
+
+/* section 2 */
+.service-container{
+    text-align: center;
+    margin-top: 40px;
+
+
+}
+
+
+.service-title{
+    color: #0B0223;
+    font-size: 48px;
+    font-weight: 700;
+    margin-top: 45px;
+}
+.color{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: Work Sans;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+ }
+
+ .service-ds{
+    margin-bottom: 30px;
+    margin-top: 25px;
+
+    color: #534C64;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px; 
+ }
+
+.container{
+    display: flex;
+    justify-content: center;
+     gap: 25px;
+   border-radius: 30px;
+   margin-bottom: 40px;
+}
+/* section 3 start */
+.pley-ground{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 60px 200px;
+    
+    
+}
+
+.pley-ground-head{
+    font-size: 48px;
+    font-weight: 700;
+    margin-top: 45px;
+    
+}
+.pley-text{
+    color: #F948B2;
+}
+
+.parentimg {
+  position: relative;
+  top: 0;
+  bottom: 0;
+
+}
+
+.parentimg .img1 {
+    position: relative;
+    left: 170px;
+    top: 70px;
+}
+
+
+
+/* footer section */
+.footermain {
+    justify-content: center;
+    background-color: #0B0223;
+    position: relative;
+    
+}
+
+.footerone {
+
+    display: flex;
+    padding: 60px;
+    color: #fff;
+    justify-content: center;
+    position: relative;
+    
+}
+
+
+
+.footerh1 span {
+    color: #FF42A5;
+    padding-left: 0.8rem;
+    font-weight: 800;
+    
+}
+
+.footermain .ulone {
+
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    position: relative;
+    margin-bottom: 25px;
+    margin-bottom: 25px;
+    gap: 2rem;
+}
+
+.footermain .ultwo {
+    display: flex;
+    font-size: 2rem;
+    color: #fff;
+    justify-content: center;
+    list-style-type: none;
+    position: relative;
+    margin-bottom: 15px;
+    gap: 1.5rem;
+}
+
+.footermain .ulthree {
+    display: flex;
+    color: #797486;
+    font-size: 0.8rem;
+    justify-content: center;
+    list-style-type: none;
+    position: relative;
+    gap: 2rem;
+    margin-bottom: 10px;
+   
+
+}
+
+.footermain p {
+    display: flex;
+    color: #797486;
+    font-size: 0.8rem;
+    justify-content: center;
+    list-style-type: none;
+    position: relative;
+    gap: 2rem;
+    padding-bottom: 40px;
+    
+
+}
